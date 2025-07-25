@@ -1,4 +1,4 @@
-# Strategic Account Management System
+# Strategic Account Management System - by Startup-IQ
 
 This Streamlit application provides an AI-powered analysis of a target sales account. It gathers live data from the web, identifies a key sales opportunity, and maps a path to relevant contacts using the user's exported LinkedIn network.
 
