@@ -1,0 +1,8 @@
+streamlit
+pandas
+httpx
+beautifulsoup4
+lxml
+googlesearch-python
+numpy
+textblob
