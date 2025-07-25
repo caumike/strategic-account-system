@@ -1,0 +1,158 @@
+{
+  "industries": {
+    "Technology": {
+      "avg_win_rate": 0.22,
+      "avg_sales_cycle_days": 120,
+      "key_pain_points": [
+        "Managing cybersecurity threats",
+        "Talent acquisition and retention",
+        "AI integration and ethical concerns",
+        "Digital transformation risks"
+      ],
+      "compelling_events": [
+        "Securing new funding rounds",
+        "Major competitor product launches",
+        "Experiencing data breaches",
+        "Achieving new compliance standards"
+      ]
+    },
+    "Manufacturing": {
+      "avg_win_rate": 0.18,
+      "avg_sales_cycle_days": 180,
+      "key_pain_points": [
+        "Supply chain disruptions and costs",
+        "Skilled labor shortages",
+        "Rising operational and inflation costs",
+        "Adopting digital transformation"
+      ],
+      "compelling_events": [
+        "Plant expansions or relocations",
+        "Supply chain crises",
+        "New sustainability regulations",
+        "Implementing Industry 4.0 technologies"
+      ]
+    },
+    "Finance": {
+      "avg_win_rate": 0.20,
+      "avg_sales_cycle_days": 90,
+      "key_pain_points": [
+        "Regulatory complexity and compliance",
+        "Cybersecurity and fraud prevention",
+        "Accelerating digital transformation",
+        "Fintech disruptions"
+      ],
+      "compelling_events": [
+        "Mergers and acquisitions",
+        "New regulatory changes",
+        "Cyber incidents or data breaches",
+        "Expansion into new financial markets"
+      ]
+    },
+    "Healthcare": {
+      "avg_win_rate": 0.15,
+      "avg_sales_cycle_days": 150,
+      "key_pain_points": [
+        "Workforce shortages and retention",
+        "Cybersecurity threats",
+        "Financial pressures and reimbursements",
+        "Data management and interoperability"
+      ],
+      "compelling_events": [
+        "New healthcare regulations",
+        "Hospital mergers or acquisitions",
+        "Adoption of AI and new technologies",
+        "Patient data breaches"
+      ]
+    },
+    "Retail & E-commerce": {
+      "avg_win_rate": 0.20,
+      "avg_sales_cycle_days": 90,
+      "key_pain_points": [
+        "Supply chain instability",
+        "Rising digital advertising costs",
+        "High ecommerce return rates",
+        "Meeting sustainability demands"
+      ],
+      "compelling_events": [
+        "Launching new online platforms",
+        "Seasonal sales peaks",
+        "Competitors entering the market",
+        "Data privacy regulatory changes"
+      ]
+    },
+    "Professional Services": {
+      "avg_win_rate": 0.25,
+      "avg_sales_cycle_days": 60,
+      "key_pain_points": [
+        "Inefficient internal processes",
+        "Acquiring and retaining clients",
+        "Scaling the business",
+        "Talent retention"
+      ],
+      "compelling_events": [
+        "Winning or losing major clients",
+        "Economic shifts impacting demand",
+        "Adopting new technologies",
+        "Forming mergers or partnerships"
+      ]
+    },
+    "Energy & Utilities": {
+      "avg_win_rate": 0.18,
+      "avg_sales_cycle_days": 200,
+      "key_pain_points": [
+        "Transitioning to renewable energy",
+        "Cybersecurity and grid resilience",
+        "Workforce shortages",
+        "High capital costs for green tech"
+      ],
+      "compelling_events": [
+        "New energy regulations",
+        "Surges in demand from AI/data centers",
+        "Natural disasters affecting infrastructure",
+        "Securing funding for green projects"
+      ]
+    },
+    "Fashion": {
+      "avg_win_rate": 0.20,
+      "avg_sales_cycle_days": 120,
+      "key_pain_points": [
+        "Sustainability and environmental impact",
+        "Supply chain disruptions",
+        "Economic volatility",
+        "Digital transformation challenges"
+      ],
+      "compelling_events": [
+        "New sustainability regulations",
+        "Brand repositioning or relaunches",
+        "Supply chain crises",
+        "Expansion into new markets"
+      ]
+    },
+    "Default": {
+      "avg_win_rate": 0.21,
+      "avg_sales_cycle_days": 90,
+      "key_pain_points": [
+        "Managing operational costs",
+        "Talent acquisition and retention",
+        "Adopting digital technologies",
+        "Supply chain management"
+      ],
+      "compelling_events": [
+        "Securing new funding",
+        "Regulatory changes",
+        "Market expansions",
+        "Crisis events requiring solutions"
+      ]
+    }
+  },
+  "feature_weights": {
+    "base_score": 25.0,
+    "strategic_position_score": 0.3,
+    "has_direct_eb_path": 25.0,
+    "has_strategic_eb_path": 10.0,
+    "has_compelling_event": 15.0,
+    "strong_sentiment": 10.0,
+    "weak_sentiment": -15.0,
+    "high_fit_score": 5.0
+  }
+}
